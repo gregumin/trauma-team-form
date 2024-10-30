@@ -1,0 +1,141 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    display:block;
+}
+
+#maindiv {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+#leftdiv{
+    width: 33vw;
+    background-image: url("https://static.wikia.nocookie.net/cyberpunk/images/1/1c/NC-Profile-2077-Placeholder.jpg/revision/latest?cb=20200501024902");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    flex-grow: 1
+}
+
+#leftshade{
+    background-color: rgba(0,0,0,0.5);
+    width: 33vw;
+    height: 20vh;
+    position: relative;
+    top: 20vh;
+    
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+
+}
+
+#copyrightbox{
+    position: absolute;
+    bottom: 0;
+    width: 33vw;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 0.7em;
+    color: red;
+}
+
+#rightdiv{
+    width: 67vw;
+    background-color: black;
+    margin: 0;
+    flex-grow: 1;
+    padding: 3em;
+}
+
+#formspace{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#formmain{
+    display: flex;
+
+}
+
+input{
+    background-color: darkslategray;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    width: 15vw;
+    font-size: 0.8em;
+}
+
+input:invalid{
+    border-color: red;
+    color: red;;
+}
+
+input:valid{
+    border-color: lime;
+}
+
+input:focus{
+    border-color: cyan;
+    color: white;
+}
+
+
+label{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: red;
+    width: 12vw;
+    height: 6vh;
+    padding: 0.5em;
+    border-radius: 0.8em;
+    font-size: 0.8em;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+
+#already{
+    font-size: 0.8em;
+}
+
+#alreadylink{
+    font-weight: bold;
+    color:red;
+}
+
+#squad{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: auto;
+    opacity: 0.5;
+}

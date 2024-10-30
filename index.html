@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Trauma Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="maindiv">
+        <div id="leftdiv">
+            <div id="leftshade">
+                <img id="logo" src="https://i.namu.wiki/i/a3GkhQuvwxycyyNIHB1NyYbwBoGS_F97T7a5UpDWQpnn7RpltuCq7rTg9ydpB2-Irum_UE05LSyhWR9tsGTEwA.svg" alt="Trauma Team logo">
+            </div>
+            <div id="copyrightbox">
+                <p id="copyright">© CD Projekt Red, 2020</p>
+            </div>
+        </div>
+
+
+        <div id="rightdiv">
+            <h1>Home to over 5,000,000 people in the year 2077, you'd never know who has your back covered in Night City. Or who's aiming right at it. Here's where Trauma Team comes in.</h1>
+            <h1>Sign up for a coverage plan <em>now</em> and you'll <em>never</em> have to look back again.</h1>
+
+            <div id="formspace">
+                <h1>Secure your safety.</h1>
+                <form action="/my-handling-form-page" method="post">
+                    <div id="formmain">
+                    <div id="formleft">
+                        <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="first_name" placeholder="Johnny" required/>
+                        </div>
+                        <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="JS@traumateam.com" required/>
+                        </div>
+                        <div>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required/>
+                        </div>
+                    </div>
+                    <div id="formright">
+                        <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="last_name" placeholder="Silverhand" required/>
+                        </div>
+                        <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="555-8008135" pattern="\d{3}-\d{7}" required/>
+                        </div>
+                        <div>
+                        <label for="rePassword">Confirm Password:</label>
+                        <input type="password" id="rePassword" name="re-password" required/>
+                        </div>
+                    </div>
+                    </div>
+
+                    <button type="submit" id="accountBtn">Create Account</button>
+                </form>
+            </div>
+            
+            <p id="already">Already have an account? <a id="alreadylink" href="https://github.com/gregumin">Log in</a></p>
+
+            <img id="squad" src="TraumaTeam.png" alt="">
+        </div>
+
+    </div>
+
+</body>
+</html>
